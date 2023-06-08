@@ -394,7 +394,61 @@ Featured Tours
 Contact
 ===============
 */
+.contact-section {
+  background: var(--clr-primary-5);
+  padding: 5rem 2rem;
+  margin: 0;
+  width: 100vw;
+  max-width: none;
+}
 
+.contact-message-container h3 {
+  color: var(--clr-white);
+}
+.contact-message-container p {
+  color: var(--clr-primary-8);
+}
+.form-email input {
+  padding: 0.5rem;
+  width: 50vw;
+  margin-right: 0.25rem;
+  border: none;
+}
+.form-email input::placeholder {
+  letter-spacing: var(--spacing);
+  font-size: 1rem;
+  border: none;
+}
+.form-email input:focus {
+  outline: none;
+}
+.form-email {
+  display: flex;
+  max-width: 28rem;
+}
+.form-email button {
+  color: var(--clr-grey-1);
+  text-transform: unset;
+  background: var(--clr-primary-8);
+}
+.btn:hover {
+  background: var(--clr-primary-1);
+  color: var(--clr-primary-5);
+}
+.form-control {
+  flex: 1 1 auto;
+}
+@media screen and (min-width: 992px) {
+  .contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .form-email {
+    align-self: flex-start;
+    flex: 1 1 auto;
+  }
+}
 /*
 =============== 
 Gallery

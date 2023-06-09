@@ -397,9 +397,6 @@ Contact
 .contact-section {
   background: var(--clr-primary-5);
   padding: 5rem 2rem;
-  margin: 0;
-  width: 100vw;
-  max-width: none;
 }
 
 .contact-message-container h3 {
